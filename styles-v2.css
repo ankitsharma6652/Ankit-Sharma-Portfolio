@@ -193,6 +193,18 @@ body {
     transition: var(--transition);
 }
 
+.mobile-toggle.active span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.mobile-toggle.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-toggle.active span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
 /* Hero Section */
 .hero-v2 {
     padding: calc(var(--spacing-unit) * 20) 0 calc(var(--spacing-unit) * 12);
