@@ -1,6 +1,6 @@
 # Ankit Sharma - Professional Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://ankitsharma6652.github.io/portfolio)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://ankitsharma6652.github.io/Ankit-Sharma-Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/ankit-sharma-317619177/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/ankitsharma6652)
 
@@ -8,7 +8,7 @@
 
 Professional portfolio website showcasing my work as a **Marketing Data Analyst** with expertise in Snowflake, Python, SQL, and Tableau. Currently learning **Data Engineering** and **Generative AI**.
 
-**Live Portfolio:** [View Here](https://ankitsharma6652.github.io/portfolio)
+**Live Portfolio:** [View Here](https://ankitsharma6652.github.io/Ankit-Sharma-Portfolio/)
 
 ---
 
@@ -160,7 +160,7 @@ Semiconductor wafer fault detection with 24% productivity increase.
 ### GitHub Pages (Current)
 ```bash
 # Clone repository
-git clone https://github.com/ankitsharma6652/portfolio.git
+git clone https://github.com/ankitsharma6652/Ankit-Sharma-Portfolio.git
 
 # Navigate to directory
 cd portfolio
@@ -181,7 +181,7 @@ open index-v2.html
 - **Email:** [ankitcoolji@gmail.com](mailto:ankitcoolji@gmail.com)
 - **LinkedIn:** [ankit-sharma-317619177](https://www.linkedin.com/in/ankit-sharma-317619177/)
 - **GitHub:** [ankitsharma6652](https://github.com/ankitsharma6652)
-- **Portfolio:** [Live Site](https://ankitsharma6652.github.io/portfolio)
+- **Portfolio:** [Live Site](https://ankitsharma6652.github.io/Ankit-Sharma-Portfolio/)
 
 ---
 
