@@ -5,8 +5,7 @@
   (function(){
     try{
       var saved=localStorage.getItem('ankit-theme');
-      var theme=saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
-      if(theme==='light'){document.documentElement.setAttribute('data-theme','light');}
+      if(saved==='light'){document.documentElement.setAttribute('data-theme','light');}
     }catch(e){}
   })();
 </script>
