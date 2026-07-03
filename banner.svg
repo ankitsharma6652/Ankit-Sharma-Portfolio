@@ -1,0 +1,82 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1" cx="85%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#6D5EF7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#6D5EF7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="5%" cy="95%" r="55%">
+      <stop offset="0%" stop-color="#3EE08F" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3EE08F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6D5EF7"/>
+      <stop offset="100%" stop-color="#9C8CFF"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAEEF7"/>
+      <stop offset="100%" stop-color="#9C8CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#232C41" stroke-width="1" opacity="0.4"/>
+    </pattern>
+    <mask id="gridMask">
+      <rect width="1200" height="280" fill="url(#fadeMask)"/>
+    </mask>
+    <radialGradient id="fadeMask" cx="50%" cy="0%" r="90%">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="80%" stop-color="black"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" rx="18" fill="#080A12"/>
+  <rect width="1200" height="280" rx="18" fill="url(#grid)" mask="url(#gridMask)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#glow1)"/>
+  <rect width="1200" height="280" rx="18" fill="url(#glow2)"/>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="17.5" fill="none" stroke="#232C41" stroke-width="1"/>
+
+  <!-- Logo mark -->
+  <rect x="60" y="56" width="56" height="56" rx="14" fill="url(#markGrad)"/>
+  <text x="88" y="94" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" text-anchor="middle">AS</text>
+
+  <!-- Name -->
+  <text x="140" y="82" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" letter-spacing="-0.5" fill="url(#textGrad)">Ankit Sharma</text>
+  <text x="140" y="110" font-family="'Courier New', monospace" font-weight="500" font-size="15" letter-spacing="0.5" fill="#8B95AD">AI App Developer · Agentic AI &amp; Automation</text>
+
+  <!-- Status pill -->
+  <rect x="60" y="140" width="322" height="38" rx="19" fill="#3EE08F" fill-opacity="0.12" stroke="#3EE08F" stroke-opacity="0.35"/>
+  <circle cx="82" cy="159" r="5" fill="#3EE08F"/>
+  <text x="96" y="164" font-family="'Courier New', monospace" font-size="13.5" fill="#3EE08F">Available for freelance — booking projects</text>
+
+  <!-- Tag chips -->
+  <rect x="60" y="196" width="150" height="34" rx="9" fill="#111725" stroke="#232C41"/>
+  <text x="78" y="218" font-family="'Courier New', monospace" font-size="12.5" fill="#9C8CFF">Claude API · LangGraph</text>
+
+  <rect x="222" y="196" width="140" height="34" rx="9" fill="#111725" stroke="#232C41"/>
+  <text x="240" y="218" font-family="'Courier New', monospace" font-size="12.5" fill="#9C8CFF">Native Android</text>
+
+  <rect x="374" y="196" width="168" height="34" rx="9" fill="#111725" stroke="#232C41"/>
+  <text x="392" y="218" font-family="'Courier New', monospace" font-size="12.5" fill="#9C8CFF">FastAPI · Next.js</text>
+
+  <!-- Terminal window (right side) -->
+  <rect x="700" y="56" width="440" height="178" rx="12" fill="#111725" stroke="#232C41"/>
+  <rect x="700" y="56" width="440" height="34" rx="12" fill="#0D111C"/>
+  <rect x="700" y="78" width="440" height="12" fill="#0D111C"/>
+  <circle cx="722" cy="73" r="5.5" fill="#ff5f57"/>
+  <circle cx="740" cy="73" r="5.5" fill="#febc2e"/>
+  <circle cx="758" cy="73" r="5.5" fill="#28c840"/>
+  <text x="778" y="77" font-family="'Courier New', monospace" font-size="12" fill="#5D6885">~/ankit/builder.status</text>
+
+  <text x="722" y="116" font-family="'Courier New', monospace" font-size="13" fill="#9C8CFF">status</text>
+  <text x="768" y="116" font-family="'Courier New', monospace" font-size="13" fill="#8B95AD"> = </text>
+  <text x="786" y="116" font-family="'Courier New', monospace" font-size="13" fill="#3EE08F">"available_for_hire"</text>
+
+  <text x="722" y="142" font-family="'Courier New', monospace" font-size="13" fill="#9C8CFF">builds</text>
+  <text x="768" y="142" font-family="'Courier New', monospace" font-size="13" fill="#8B95AD"> = [agentic_ai, android, bi]</text>
+
+  <text x="722" y="168" font-family="'Courier New', monospace" font-size="13" fill="#9C8CFF">shipping_speed</text>
+  <text x="846" y="168" font-family="'Courier New', monospace" font-size="13" fill="#8B95AD"> = </text>
+  <text x="864" y="168" font-family="'Courier New', monospace" font-size="13" fill="#3EE08F">"~30 days"</text>
+
+  <text x="722" y="200" font-family="'Courier New', monospace" font-size="13" fill="#5D6885"># let's build yours next</text>
+</svg>
