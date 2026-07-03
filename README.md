@@ -1,8 +1,14 @@
 # Ankit Sharma — Portfolio
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-6D5EF7?style=for-the-badge)](https://ankitsharma6652.github.io/Ankit-Sharma-Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/ankit-sharma-317619177/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/ankitsharma6652)
+<img src="./banner.svg" alt="Ankit Sharma — AI App Developer, available for freelance" width="100%">
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-6D5EF7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ankitsharma6652.github.io/Ankit-Sharma-Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ankit-sharma-317619177/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ankitsharma6652)
+
+</div>
 
 ## 👋 About
 
@@ -16,7 +22,7 @@ Personal portfolio for **Ankit Sharma** — AI App Developer available for freel
 
 - **Freelance positioning** — services offered (agentic automation, AI SaaS MVPs, BI dashboards, Claude API integration, voice AI, rapid prototypes)
 - **Live project showcase** — Quillr (7-agent AI blogging platform), ResearchAI (LangGraph multi-agent research), SpendTracker (native Android expense tracker), plus earlier Gen AI and ML projects
-- **Dark / light mode toggle** — remembers your preference, respects system settings on first visit
+- **Dark / light mode toggle** — defaults to dark for every visitor; if someone switches to light, that choice is remembered via `localStorage` on their next visit
 - **Full professional timeline** — Evoke Technologies → Pluralsight India → Tiger Analytics → Infosys
 - **Fully responsive** — desktop, tablet, and mobile
 
@@ -38,6 +44,7 @@ Single self-contained `index.html` — no build step, no framework, no dependenc
 ```
 Ankit-Sharma-Portfolio/
 ├── index.html      # The entire site — HTML, CSS, and JS in one file
+├── banner.svg       # Dark-themed banner used at the top of this README
 ├── resume.pdf       # Downloadable résumé, linked from the Contact section
 └── README.md         # This file
 ```
